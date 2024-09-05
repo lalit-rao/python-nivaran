@@ -1,0 +1,1874 @@
+{
+    "intents": [
+        {
+            "tag": "emergencycontact",
+            "patterns": [
+                "Who should I contact in an emergency?",
+                "What is the emergency contact number?",
+                "Who do I call for urgent help?",
+                "Can you give me the emergency contact details?",
+                "Who do I reach out to during a disaster?"
+            ],
+            "responses": [
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel."
+            ]
+        },
+        {
+            "tag": "firstaid",
+            "patterns": [
+                "What should I do for a burn?",
+                "How can I treat a cut?",
+                "What are the first aid steps for a sprain?",
+                "How do I handle a choking incident?",
+                "What is the procedure for performing CPR?"
+            ],
+            "responses": [
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help."
+            ]
+        },
+        {
+            "tag": "disasterpreparedness",
+            "patterns": [
+                "How can I prepare for an earthquake?",
+                "What should be in my emergency kit?",
+                "How do I create a disaster plan?",
+                "What are the steps to prepare for a hurricane?",
+                "How can I stay safe during a tornado?"
+            ],
+            "responses": [
+                "To prepare for an earthquake, secure heavy items, create a family emergency plan, and practice drop, cover, and hold drills.",
+                "An emergency kit should include water, non-perishable food, a flashlight, batteries, a first aid kit, and important documents.",
+                "Create a disaster plan by identifying safe meeting places, having emergency contact information, and rehearsing evacuation routes.",
+                "Prepare for a hurricane by securing windows and doors, stocking up on essentials, and having a battery-operated radio for updates.",
+                "During a tornado, seek shelter in a basement or an interior room without windows and cover yourself with a sturdy object or mattress."
+            ]
+        },
+        {
+            "tag": "evacuationplan",
+            "patterns": [
+                "What should I include in my evacuation plan?",
+                "How do I know when to evacuate?",
+                "Where is the nearest evacuation center?",
+                "How can I prepare for evacuation?",
+                "What are the steps to evacuate safely?"
+            ],
+            "responses": [
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities."
+            ]
+        },
+        {
+            "tag": "weatheralerts",
+            "patterns": [
+                "How do I receive weather alerts?",
+                "What should I do if there's a severe weather warning?",
+                "How can I stay updated on weather conditions?",
+                "What are the different types of weather alerts?",
+                "How do I prepare for a severe weather event?"
+            ],
+            "responses": [
+                "Sign up for weather alerts through your local weather service or use weather apps to receive real-time updates.",
+                "If there's a severe weather warning, seek shelter immediately, follow local safety instructions, and stay informed.",
+                "Stay updated on weather conditions by following local news, weather apps, and social media channels for updates.",
+                "Weather alerts can include warnings for storms, floods, hurricanes, and tornadoes. Each alert has specific safety instructions.",
+                "Prepare for severe weather by securing your home, stocking up on essentials, and having a plan for shelter and communication."
+            ]
+        },
+        {
+            "tag": "flood",
+            "patterns": [
+                "What should I do if there's a flood warning?",
+                "How can I protect my home from flooding?",
+                "What are the safety tips during a flood?",
+                "How do I know if it's safe to return home after a flood?",
+                "What should I include in my flood emergency kit?"
+            ],
+            "responses": [
+                "If there's a flood warning, move to higher ground, avoid walking or driving through floodwaters, and stay informed through local alerts.",
+                "Protect your home by sealing leaks, elevating electrical appliances, and installing flood barriers if possible.",
+                "During a flood, avoid entering floodwaters, stay indoors, and listen to local emergency instructions.",
+                "After a flood, wait for official confirmation that it's safe to return home. Check for hazards and follow cleanup guidelines.",
+                "Include items like water, non-perishable food, a flashlight, batteries, a first aid kit, and important documents in your flood emergency kit."
+            ]
+        },
+        {
+            "tag": "firesafety",
+            "patterns": [
+                "How can I prevent a fire in my home?",
+                "What should I do if there's a fire?",
+                "How do I create a fire escape plan?",
+                "What are the fire safety tips for a kitchen?",
+                "How can I prepare for a wildfire?"
+            ],
+            "responses": [
+                "Prevent home fires by installing smoke alarms, keeping flammable materials away from heat sources, and having a fire extinguisher.",
+                "If there's a fire, exit the building immediately, use the nearest exit, and avoid using elevators. Call emergency services once you're safe.",
+                "Create a fire escape plan by identifying two ways out of each room, practicing regular drills, and designating a meeting point outside.",
+                "For kitchen fire safety, never leave cooking unattended, keep flammable items away from the stove, and have a fire extinguisher handy.",
+                "Prepare for a wildfire by creating a defensible space around your home, having an evacuation plan, and staying informed about fire conditions."
+            ]
+        },
+        {
+            "tag": "earthquakesafety",
+            "patterns": [
+                "What should I do during an earthquake?",
+                "How can I prepare for an earthquake?",
+                "What are the aftershocks of an earthquake?",
+                "How can I secure my home for earthquakes?",
+                "What are the immediate steps after an earthquake?"
+            ],
+            "responses": [
+                "During an earthquake, drop to the ground, cover your head and neck, and hold on until the shaking stops.",
+                "Prepare for an earthquake by securing heavy items, having an emergency kit, and creating a family emergency plan.",
+                "Aftershocks are smaller tremors that follow the main earthquake. Stay alert and be prepared for additional shaking.",
+                "Secure your home by anchoring heavy furniture, securing appliances, and reinforcing structural elements if possible.",
+                "Immediately after an earthquake, check for injuries, inspect your home for damage, and be cautious of potential aftershocks."
+            ]
+        },
+        {
+            "tag": "hurricanesafety",
+            "patterns": [
+                "What should I do before a hurricane?",
+                "How can I protect my property from a hurricane?",
+                "What are the signs of an approaching hurricane?",
+                "How do I stay safe during a hurricane?",
+                "What should I include in my hurricane emergency kit?"
+            ],
+            "responses": [
+                "Before a hurricane, prepare by securing windows and doors, stocking up on supplies, and having an evacuation plan in place.",
+                "Protect your property by installing storm shutters, reinforcing the roof, and securing outdoor items that could become projectiles.",
+                "Signs of an approaching hurricane include strong winds, heavy rain, and a sudden increase in atmospheric pressure.",
+                "During a hurricane, stay indoors, avoid windows, and follow the advice of local authorities. Keep up with weather updates.",
+                "Include items like water, non-perishable food, a flashlight, batteries, a first aid kit, and important documents in your hurricane emergency kit."
+            ]
+        },
+        {
+            "tag": "tornadosafety",
+            "patterns": [
+                "How can I prepare for a tornado?",
+                "What should I do if a tornado warning is issued?",
+                "Where should I seek shelter during a tornado?",
+                "What are the signs of a tornado?",
+                "How do I stay safe after a tornado?"
+            ],
+            "responses": [
+                "Prepare for a tornado by having a safe room or basement ready, keeping an emergency kit, and knowing your evacuation routes.",
+                "If a tornado warning is issued, seek shelter immediately in a basement or interior room away from windows.",
+                "During a tornado, seek shelter in a small, windowless room or basement. Protect your head and neck with your arms.",
+                "Signs of a tornado include a dark, greenish-colored sky, large, low-hanging, and often rotating clouds, and a loud, continuous roar.",
+                "After a tornado, be cautious of debris, check for injuries, and follow local authorities' instructions for returning to affected areas."
+            ]
+        },
+        {
+            "tag": "pandemicsafety",
+            "patterns": [
+                "What precautions should I take during a pandemic?",
+                "How do I protect myself from infectious diseases?",
+                "What should I include in my pandemic emergency kit?",
+                "How can I stay informed about pandemic updates?",
+                "What are the signs of a pandemic outbreak?"
+            ],
+            "responses": [
+                "During a pandemic, practice good hygiene, wear masks, maintain social distancing, and follow guidelines from health authorities.",
+                "Protect yourself by washing hands frequently, avoiding close contact with sick individuals, and following health guidelines.",
+                "Include items like face masks, hand sanitizer, disinfectant wipes, non-perishable food, and essential medications in your pandemic emergency kit.",
+                "Stay informed by following updates from health organizations, local government, and trusted news sources.",
+                "Signs of a pandemic outbreak include widespread illness, increasing infection rates, and public health alerts."
+            ]
+        },
+        {
+            "tag": "generalsafety",
+            "patterns": [
+                "What are some general safety tips?",
+                "How can I ensure my family's safety during a disaster?",
+                "What should I do to stay safe in a public emergency?",
+                "How can I improve safety in my community?",
+                "What are the best practices for personal safety?"
+            ],
+            "responses": [
+                "General safety tips include being aware of your surroundings, having an emergency plan, and staying informed about potential risks.",
+                "Ensure your family's safety by having a clear emergency plan, practicing safety drills, and staying updated on local hazards.",
+                "In a public emergency, follow instructions from authorities, stay calm, and move to a safe location if needed.",
+                "Improve safety in your community by participating in local safety programs, reporting hazards, and supporting emergency preparedness initiatives.",
+                "Best practices for personal safety include being alert, avoiding risky situations, and having a plan for emergencies."
+            ]
+        },
+        {
+            "tag": "chemicalspill",
+            "patterns": [
+                "What should I do if there's a chemical spill?",
+                "How can I protect myself from a chemical spill?",
+                "What are the first steps in a chemical spill emergency?",
+                "How do I report a chemical spill?",
+                "What safety measures should I follow for a chemical spill?"
+            ],
+            "responses": [
+                "If there's a chemical spill, evacuate the area immediately, avoid contact with the chemical, and report the spill to emergency services.",
+                "Protect yourself by moving away from the spill, covering your mouth and nose, and following decontamination procedures.",
+                "In a chemical spill emergency, evacuate the area, avoid inhaling fumes, and contact local authorities for assistance.",
+                "Report a chemical spill to emergency services and provide details about the location and nature of the spill.",
+                "Follow safety measures such as evacuating the area, avoiding direct contact with chemicals, and using protective equipment if available."
+            ]
+        },
+        {
+            "tag": "poweroutage",
+            "patterns": [
+                "What should I do during a power outage?",
+                "How can I prepare for a power outage?",
+                "What are the safety tips for handling a power outage?",
+                "How long can I expect a power outage to last?",
+                "What should I include in my power outage emergency kit?"
+            ],
+            "responses": [
+                "During a power outage, use flashlights instead of candles, avoid opening the refrigerator, and stay informed through battery-powered radios.",
+                "Prepare for a power outage by having backup power sources, storing non-perishable food, and keeping flashlights and batteries on hand.",
+                "Safety tips for a power outage include avoiding using generators indoors, keeping food cold with ice packs, and staying informed through emergency channels.",
+                "The duration of a power outage can vary; stay updated through local utilities or emergency services for estimated restoration times.",
+                "Include items like flashlights, batteries, non-perishable food, water, and a battery-powered radio in your power outage emergency kit."
+            ]
+        },
+        {
+            "tag": "mentalhealth",
+            "patterns": [
+                "How can I manage stress during a disaster?",
+                "What are some tips for mental well-being in emergencies?",
+                "How do I cope with anxiety during a crisis?",
+                "What support is available for mental health during a disaster?",
+                "How can I help my family with mental health issues in emergencies?"
+            ],
+            "responses": [
+                "Manage stress by practicing relaxation techniques, staying connected with loved ones, and seeking professional support if needed.",
+                "Tips for mental well-being during emergencies include maintaining routines, staying informed, and accessing mental health resources.",
+                "To cope with anxiety, practice deep breathing, stay informed through reliable sources, and reach out for emotional support.",
+                "Support for mental health during a disaster includes counseling services, support groups, and mental health hotlines.",
+                "Help your family with mental health issues by encouraging open communication, providing emotional support, and seeking professional help if necessary."
+            ]
+        },
+        {
+            "tag": "searchandrescue",
+            "patterns": [
+                "What is search and rescue?",
+                "How do search and rescue operations work?",
+                "What should I do if I need rescue during a disaster?",
+                "How can I assist in search and rescue efforts?",
+                "What are the key components of a search and rescue mission?"
+            ],
+            "responses": [
+                "Search and rescue involves locating and assisting individuals who are in danger or missing during a disaster or emergency.",
+                "Search and rescue operations work by deploying trained teams to locate and help those in need, using various techniques and equipment.",
+                "If you need rescue, contact emergency services, provide your location, and follow their instructions for safety.",
+                "Assist in search and rescue by volunteering with local organizations, providing support, and following instructions from professionals.",
+                "Key components of a search and rescue mission include coordination with emergency services, using specialized equipment, and conducting thorough searches."
+            ]
+        },
+        {
+            "tag": "volunteering",
+            "patterns": [
+                "How can I volunteer during a disaster?",
+                "What are the roles of volunteers in emergencies?",
+                "Where can I find volunteer opportunities for disaster response?",
+                "What skills are needed for disaster volunteering?",
+                "How do I get involved in community disaster preparedness?"
+            ],
+            "responses": [
+                "Volunteer during a disaster by contacting local emergency services, humanitarian organizations, or community groups involved in disaster response.",
+                "Volunteers play roles such as assisting with evacuation, providing first aid, and helping with logistics and coordination.",
+                "Find volunteer opportunities through local organizations, community centers, or disaster response agencies.",
+                "Skills needed for disaster volunteering include first aid training, communication, and the ability to work under pressure.",
+                "Get involved in community disaster preparedness by attending local meetings, participating in drills, and supporting preparedness initiatives."
+            ]
+        },
+        {
+            "tag": "shelter",
+            "patterns": [
+                "Where can I find emergency shelters?",
+                "What should I bring to an emergency shelter?",
+                "How do I locate a shelter during a disaster?",
+                "What are the rules at emergency shelters?",
+                "How can I make sure I have a safe shelter during a disaster?"
+            ],
+            "responses": [
+                "Find emergency shelters through local government websites, disaster response agencies, or by contacting emergency services.",
+                "Bring essential items to an emergency shelter, such as identification, medications, personal hygiene items, and important documents.",
+                "Locate a shelter by checking official resources, following local alerts, and asking for assistance from emergency personnel.",
+                "Rules at emergency shelters may include registration, no pets allowed, and following shelter staff instructions for safety.",
+                "Ensure a safe shelter by choosing a location away from hazards, following official guidelines, and preparing essential items in advance."
+            ]
+        },
+        {
+            "tag": "healthcare",
+            "patterns": [
+                "How can I access health care during a disaster?",
+                "What should I do if I need medical assistance?",
+                "Where are the nearest health care facilities?",
+                "How do I find a doctor during an emergency?",
+                "What are the health care resources available in a disaster?"
+            ],
+            "responses": [
+                "Access health care during a disaster by contacting local health departments, visiting emergency clinics, or reaching out to hospitals.",
+                "If you need medical assistance, call emergency services or go to the nearest medical facility for help.",
+                "Find health care facilities by checking local directories, health department resources, or asking emergency personnel for guidance.",
+                "During an emergency, locate a doctor through health care networks, emergency clinics, or by contacting health services.",
+                "Health care resources in a disaster include emergency medical teams, temporary clinics, and support from health organizations."
+            ]
+        },
+        {
+            "tag": "communitysupport",
+            "patterns": [
+                "How can I help my community during a disaster?",
+                "What are some ways to support others in an emergency?",
+                "How do I get involved in community disaster relief?",
+                "What community resources are available during a crisis?",
+                "How can I organize a community response effort?"
+            ],
+            "responses": [
+                "Help your community by volunteering, donating supplies, and providing support to affected individuals and organizations.",
+                "Support others in an emergency by offering shelter, sharing resources, and assisting with recovery efforts.",
+                "Get involved in community disaster relief by connecting with local organizations, participating in volunteer activities, and offering your skills.",
+                "Community resources during a crisis include local shelters, food banks, and support organizations working on disaster relief.",
+                "Organize a community response effort by coordinating with local agencies, rallying volunteers, and planning logistics for effective aid."
+            ]
+        },
+        {
+            "tag": "petsafety",
+            "patterns": [
+                "How can I keep my pets safe during a disaster?",
+                "What should I include in a pet emergency kit?",
+                "Where can I find pet-friendly shelters?",
+                "How do I prepare my pets for an emergency?",
+                "What are the pet safety tips during a disaster?"
+            ],
+            "responses": [
+                "Keep your pets safe during a disaster by having a plan, preparing an emergency kit, and staying informed about pet-friendly shelters.",
+                "Include items like food, water, medications, leashes, and pet carriers in your pet emergency kit.",
+                "Find pet-friendly shelters by checking local resources, contacting animal shelters, or reaching out to emergency services.",
+                "Prepare your pets for an emergency by having identification, vaccinations, and a plan for their care during a disaster.",
+                "Pet safety tips during a disaster include keeping pets indoors, having a pet emergency kit, and ensuring their identification is up to date."
+            ]
+        },
+        {
+            "tag": "foodsafety",
+            "patterns": [
+                "How can I ensure food safety during a disaster?",
+                "What should I do with food after a power outage?",
+                "How do I store food in an emergency?",
+                "What are the food safety guidelines during a disaster?",
+                "How can I prevent foodborne illnesses during emergencies?"
+            ],
+            "responses": [
+                "Ensure food safety during a disaster by storing perishable items properly, using a food thermometer, and following hygiene practices.",
+                "After a power outage, discard perishable foods that have been above 40\u00b0F for more than 2 hours or have an unusual odor, color, or texture.",
+                "Store food in an emergency by having non-perishable items, canned goods, and a manual can opener in your emergency kit.",
+                "Food safety guidelines during a disaster include keeping food covered, washing hands before handling food, and avoiding cross-contamination.",
+                "Prevent foodborne illnesses by cooking food thoroughly, washing fruits and vegetables, and storing food at safe temperatures during emergencies."
+            ]
+        },
+        {
+            "tag": "financialplanning",
+            "patterns": [
+                "How can I financially prepare for a disaster?",
+                "What are the financial risks during emergencies?",
+                "How do I protect my finances during a crisis?",
+                "What should I include in my financial emergency kit?",
+                "How can I recover financially after a disaster?"
+            ],
+            "responses": [
+                "Financially prepare for a disaster by having an emergency fund, insurance coverage, and important financial documents in order.",
+                "Financial risks during emergencies include property damage, loss of income, and unexpected expenses related to recovery.",
+                "Protect your finances during a crisis by reviewing insurance policies, creating a budget, and seeking financial assistance if needed.",
+                "Include items like cash, important documents, insurance policies, and contact information in your financial emergency kit.",
+                "Recover financially after a disaster by documenting losses, contacting insurance providers, and seeking assistance from relief programs."
+            ]
+        },
+        {
+            "tag": "communicationplan",
+            "patterns": [
+                "How do I create a communication plan for emergencies?",
+                "What should be included in a family communication plan?",
+                "How can I stay connected during a disaster?",
+                "What are the communication tools for emergency situations?",
+                "How do I ensure effective communication during a crisis?"
+            ],
+            "responses": [
+                "Create a communication plan by establishing meeting points, emergency contacts, and communication methods for family members.",
+                "Include contact information, meeting locations, and emergency procedures in your family communication plan.",
+                "Stay connected during a disaster by using cell phones, text messages, social media, and emergency alert systems.",
+                "Communication tools for emergency situations include two-way radios, satellite phones, and social media platforms for updates.",
+                "Ensure effective communication during a crisis by practicing your plan, keeping devices charged, and having backup communication methods."
+            ]
+        },
+        {
+            "tag": "evacuationroutes",
+            "patterns": [
+                "How do I find evacuation routes in my area?",
+                "What are the designated evacuation routes?",
+                "Where can I get information on evacuation routes?",
+                "How do I plan my evacuation route?",
+                "What should I consider when choosing an evacuation route?"
+            ],
+            "responses": [
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities.",
+                "Plan your evacuation by identifying safe routes, pack essential items, and follow the guidelines provided by local authorities."
+            ]
+        },
+        {
+            "tag": "preparednesstraining",
+            "patterns": [
+                "How can I receive disaster preparedness training?",
+                "What are the benefits of disaster preparedness training?",
+                "Where can I find disaster preparedness courses?",
+                "How do I get certified in disaster preparedness?",
+                "What skills are taught in disaster preparedness training?"
+            ],
+            "responses": [
+                "Receive disaster preparedness training through local organizations, online courses, or community workshops.",
+                "Benefits of disaster preparedness training include increased awareness, improved response skills, and better preparation for emergencies.",
+                "Find disaster preparedness courses through local schools, community centers, or online platforms.",
+                "Get certified in disaster preparedness by passing a certification exam, completing a course, or obtaining a diploma.",
+                "Skills taught in disaster preparedness training include emergency response, disaster planning, and communication."
+            ]
+        },
+        {
+            "tag": "emotionalsupport",
+            "patterns": [
+                "How can I provide emotional support during a disaster?",
+                "What are the ways to comfort someone in distress?",
+                "How do I offer emotional support to children in emergencies?",
+                "What should I say to someone who is grieving?",
+                "How can I help someone cope with trauma?"
+            ],
+            "responses": [
+                "Provide emotional support by listening, offering reassurance, and showing empathy to those affected by a disaster.",
+                "Comfort someone in distress by being present, offering practical help, and validating their feelings.",
+                "Offer emotional support to children by providing a sense of safety, listening to their concerns, and maintaining routines.",
+                "When someone is grieving, express condolences, offer practical assistance, and provide a listening ear for emotional support.",
+                "Help someone cope with trauma by encouraging self-care, connecting them with support services, and being patient and understanding."
+            ]
+        },
+        {
+            "tag": "recoveryprocess",
+            "patterns": [
+                "What is the recovery process after a disaster?",
+                "How can I start the recovery process?",
+                "What are the steps in disaster recovery?",
+                "How long does the recovery process take?",
+                "What resources are available for disaster recovery?"
+            ],
+            "responses": [
+                "The recovery process after a disaster involves rebuilding, restoring services, and supporting affected individuals and communities.",
+                "Start the recovery process by assessing damages, contacting insurance providers, and seeking assistance from relief organizations.",
+                "Steps in disaster recovery include damage assessment, cleanup, rebuilding, and addressing emotional and financial needs.",
+                "The duration of the recovery process varies depending on the scale of the disaster and the resources available for recovery efforts.",
+                "Resources for disaster recovery include government assistance, relief programs, community support, and nonprofit organizations."
+            ]
+        },
+        {
+            "tag": "insurancecoverage",
+            "patterns": [
+                "How does insurance coverage work in disasters?",
+                "What types of insurance are important for disaster preparedness?",
+                "How can I ensure I have adequate insurance coverage?",
+                "What should I know about filing insurance claims after a disaster?",
+                "How do I review my insurance policies for disaster coverage?"
+            ],
+            "responses": [
+                "Insurance coverage in disasters helps protect against financial losses due to property damage, injuries, or other emergencies.",
+                "Types of insurance important for disaster preparedness include homeowners, renters, flood, and earthquake insurance.",
+                "Ensure you have adequate insurance coverage by reviewing policies, updating coverage as needed, and understanding policy limits and exclusions.",
+                "Know how to file insurance claims after a disaster by documenting damages, contacting your insurance provider, and following claim procedures.",
+                "Review insurance policies for disaster coverage by checking coverage limits, deductibles, exclusions, and additional endorsements for specific risks."
+            ]
+        },
+        {
+            "tag": "relocationassistance",
+            "patterns": [
+                "How can I get relocation assistance after a disaster?",
+                "What support is available for temporary housing?",
+                "Where can I find resources for relocation assistance?",
+                "How do I apply for disaster relocation assistance?",
+                "What are the eligibility criteria for relocation assistance?"
+            ],
+            "responses": [
+                "Get relocation assistance after a disaster by contacting local government agencies, relief organizations, or emergency services.",
+                "Support for temporary housing may include shelters, hotels, or rental assistance programs for displaced individuals.",
+                "Find resources for relocation assistance through local disaster recovery centers, community organizations, or government websites.",
+                "Apply for disaster relocation assistance by submitting an application, providing necessary documentation, and meeting eligibility requirements.",
+                "Eligibility criteria for relocation assistance may include proof of residency, income verification, and documentation of disaster-related damages."
+            ]
+        },
+        {
+            "tag": "rebuildingprocess",
+            "patterns": [
+                "What is the process of rebuilding after a disaster?",
+                "How can I start the rebuilding process?",
+                "What are the steps in disaster rebuilding?",
+                "How long does the rebuilding process take?",
+                "What resources are available for disaster rebuilding?"
+            ],
+            "responses": [
+                "The process of rebuilding after a disaster involves assessing damages, securing permits, hiring contractors, and restoring infrastructure.",
+                "Start the rebuilding process by assessing damages, obtaining permits, and seeking assistance from relief organizations.",
+                "Steps in disaster rebuilding include damage assessment, permit application, contractor hiring, and infrastructure restoration.",
+                "The duration of the rebuilding process varies depending on the scale of the disaster and the resources available for rebuilding efforts.",
+                "Resources for disaster rebuilding include government assistance, relief programs, community support, and nonprofit organizations."
+            ]
+        },
+        {
+            "tag": "emergencyfunds",
+            "patterns": [
+                "How can I create an emergency fund for disasters?",
+                "What are the benefits of having an emergency fund?",
+                "How much should I save in an emergency fund?",
+                "What expenses can an emergency fund cover?",
+                "How do I access emergency funds during a disaster?"
+            ],
+            "responses": [
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel."
+            ]
+        },
+        {
+            "tag": "disasterrecoverycenters",
+            "patterns": [
+                "What are disaster recovery centers?",
+                "How do disaster recovery centers help after a disaster?",
+                "Where can I find a disaster recovery center?",
+                "What services are available at disaster recovery centers?",
+                "How can I get assistance from a disaster recovery center?"
+            ],
+            "responses": [
+                "Disaster recovery centers are physical locations where individuals affected by disasters can access information, resources, and assistance.",
+                "Disaster recovery centers help after a disaster by providing information on disaster assistance programs, offering support services, and connecting individuals with resources.",
+                "Find a disaster recovery center by checking local government websites, contacting emergency services, or visiting community centers.",
+                "Services available at disaster recovery centers may include disaster assistance programs, counseling services, temporary housing assistance, and referrals to relief organizations.",
+                "Get assistance from a disaster recovery center by visiting the center in person, providing necessary documentation, and speaking with recovery specialists."
+            ]
+        },
+        {
+            "tag": "disasterassistance",
+            "patterns": [
+                "What is disaster assistance?",
+                "How can I apply for disaster assistance?",
+                "What types of disaster assistance are available?",
+                "Where can I find information on disaster assistance programs?",
+                "What are the eligibility criteria for disaster assistance?"
+            ],
+            "responses": [
+                "Disaster assistance provides financial, housing, and other forms of support to individuals and communities affected by disasters.",
+                "Apply for disaster assistance by contacting local government agencies, visiting disaster recovery centers, or applying online through official websites.",
+                "Types of disaster assistance include financial aid, temporary housing, low-interest loans, and counseling services for disaster survivors.",
+                "Find information on disaster assistance programs through local government websites, emergency services, or disaster recovery centers.",
+                "Eligibility criteria for disaster assistance may include proof of disaster-related damages, income verification, and residency requirements."
+            ]
+        },
+        {
+            "tag": "recoveryresources",
+            "patterns": [
+                "What resources are available for disaster recovery?",
+                "How can I access recovery resources after a disaster?",
+                "Where can I find information on recovery resources?",
+                "What types of support are offered in disaster recovery?",
+                "How do I get assistance from recovery resources?"
+            ],
+            "responses": [
+                "Resources for disaster recovery include government assistance programs, relief organizations, community support services, and nonprofit agencies.",
+                "Access recovery resources after a disaster by contacting local government agencies, visiting disaster recovery centers, or seeking help from relief organizations.",
+                "Find information on recovery resources through local government websites, emergency services, or community organizations involved in disaster recovery.",
+                "Support offered in disaster recovery may include financial aid, temporary housing, counseling services, debris removal, and rebuilding assistance.",
+                "Get assistance from recovery resources by reaching out to local agencies, providing necessary documentation, and following instructions for accessing support services."
+            ]
+        },
+        {
+            "tag": "disasterrecovery",
+            "patterns": [
+                "What is disaster recovery?",
+                "How does disaster recovery work?",
+                "What are the goals of disaster recovery?",
+                "How can I start the disaster recovery process?",
+                "What are the key components of disaster recovery?"
+            ],
+            "responses": [
+                "Disaster recovery involves restoring services, rebuilding infrastructure, and supporting affected individuals and communities after a disaster.",
+                "Disaster recovery works by assessing damages, securing resources, and implementing plans to restore normalcy after a disaster.",
+                "Goals of disaster recovery include rebuilding communities, restoring services, supporting recovery efforts, and enhancing resilience to future disasters.",
+                "Start the disaster recovery process by assessing damages, creating a recovery plan, and seeking assistance from relief organizations.",
+                "Key components of disaster recovery include damage assessment, resource allocation, rebuilding efforts, and support services for affected individuals."
+            ]
+        },
+        {
+            "tag": "recoveryplan",
+            "patterns": [
+                "What is a disaster recovery plan?",
+                "How do I create a recovery plan for emergencies?",
+                "What should be included in a disaster recovery plan?",
+                "How can I prepare for disaster recovery?",
+                "What are the steps to implement a recovery plan?"
+            ],
+            "responses": [
+                "A disaster recovery plan is a comprehensive document that outlines the steps, resources, and strategies needed to restore services, rebuilding infrastructure, and support affected individuals and communities after a disaster.",
+                "Create a recovery plan by identifying the immediate needs and concerns of affected individuals, assessing damages, and determining the recovery strategies.",
+                "Include components such as damage assessment, resource allocation, rebuilding efforts, support services for affected individuals, and contingency plans.",
+                "Prepare for disaster recovery by staying informed about emergency services, obtaining necessary documentation, and seeking support from relief organizations.",
+                "Steps to implement a recovery plan include preparing for disaster, conducting damage assessment, allocating resources, implementing rebuilding efforts, and supporting affected individuals."
+            ]
+        },
+        {
+            "tag": "recoveryassistance",
+            "patterns": [
+                "How can I get recovery assistance after a disaster?",
+                "What support is available for disaster recovery?",
+                "Where can I find resources for recovery assistance?",
+                "How do I apply for disaster recovery assistance?",
+                "What are the eligibility criteria for recovery assistance?"
+            ],
+            "responses": [
+                "Get recovery assistance after a disaster by contacting local government agencies, visiting disaster recovery centers, or seeking help from relief organizations.",
+                "Support for disaster recovery may include financial aid, temporary housing, counseling services, debris removal, and rebuilding assistance for affected individuals and communities.",
+                "Find resources for recovery assistance through local government websites, emergency services, or community organizations involved in disaster recovery.",
+                "Apply for disaster recovery assistance by providing necessary documentation, providing proof of disaster-related damages, and meeting eligibility criteria.",
+                "Eligibility criteria for recovery assistance may include proof of disaster-related damages, income verification, and residency requirements."
+            ]
+        },
+        {
+            "tag": "recoveryprocess",
+            "patterns": [
+                "What is the recovery process after a disaster?",
+                "How can I start the recovery process?",
+                "What are the steps in disaster recovery?",
+                "How long does the recovery process take?",
+                "What resources are available for disaster recovery?"
+            ],
+            "responses": [
+                "The recovery process after a disaster involves rebuilding, restoring services, and supporting affected individuals and communities.",
+                "Start the recovery process by assessing damages, contacting insurance providers, and seeking assistance from relief organizations.",
+                "Steps in disaster recovery include damage assessment, cleanup, rebuilding, and addressing emotional and financial needs.",
+                "The duration of the recovery process varies depending on the scale of the disaster and the resources available for recovery efforts.",
+                "Resources for disaster recovery include government assistance, relief programs, community support, and nonprofit organizations."
+            ]
+        },
+        {
+            "tag": "insurancecoverage",
+            "patterns": [
+                "How does insurance coverage work in disasters?",
+                "What types of insurance are important for disaster preparedness?",
+                "How can I ensure I have adequate insurance coverage?",
+                "What should I know about filing insurance claims after a disaster?",
+                "How do I review my insurance policies for disaster coverage?"
+            ],
+            "responses": [
+                "Insurance coverage in disasters helps protect against financial losses due to property damage, injuries, or other emergencies.",
+                "Types of insurance important for disaster preparedness include homeowners, renters, flood, and earthquake insurance.",
+                "Ensure you have adequate insurance coverage by reviewing policies, updating coverage as needed, and understanding policy limits and exclusions.",
+                "Know how to file insurance claims after a disaster by documenting damages, contacting your insurance provider, and following claim procedures.",
+                "Review insurance policies for disaster coverage by checking coverage limits, deductibles, exclusions, and additional endorsements for specific risks."
+            ]
+        },
+        {
+            "tag": "relocationassistance",
+            "patterns": [
+                "How can I get relocation assistance after a disaster?",
+                "What support is available for temporary housing?",
+                "Where can I find resources for relocation assistance?",
+                "How do I apply for disaster relocation assistance?",
+                "What are the eligibility criteria for relocation assistance?"
+            ],
+            "responses": [
+                "Get relocation assistance after a disaster by contacting local government agencies, relief organizations, or emergency services.",
+                "Support for temporary housing may include shelters, hotels, or rental assistance programs for displaced individuals.",
+                "Find resources for relocation assistance through local disaster recovery centers, community organizations, or government websites.",
+                "Apply for disaster relocation assistance by submitting an application, providing necessary documentation, and meeting eligibility requirements.",
+                "Eligibility criteria for relocation assistance may include proof of residency, income verification, and documentation of disaster-related damages."
+            ]
+        },
+        {
+            "tag": "rebuildingprocess",
+            "patterns": [
+                "What is the process of rebuilding after a disaster?",
+                "How can I start the rebuilding process?",
+                "What are the steps in disaster rebuilding?",
+                "How long does the rebuilding process take?",
+                "What resources are available for disaster rebuilding?"
+            ],
+            "responses": [
+                "The process of rebuilding after a disaster involves assessing damages, securing permits, hiring contractors, and restoring infrastructure.",
+                "Start the rebuilding process by assessing damages, obtaining permits, and seeking assistance from relief organizations.",
+                "Steps in disaster rebuilding include damage assessment, permit application, contractor hiring, and infrastructure restoration.",
+                "The duration of the rebuilding process varies depending on the scale of the disaster and the resources available for rebuilding efforts.",
+                "Resources for disaster rebuilding include government assistance, relief programs, community support, and nonprofit organizations."
+            ]
+        },
+        {
+            "tag": "emergencyfunds",
+            "patterns": [
+                "How can I create an emergency fund for disasters?",
+                "What are the benefits of having an emergency fund?",
+                "How much should I save in an emergency fund?",
+                "What expenses can an emergency fund cover?",
+                "How do I access emergency funds during a disaster?"
+            ],
+            "responses": [
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel."
+            ]
+        },
+        {
+            "tag": "disasterrecoverycenters",
+            "patterns": [
+                "What are disaster recovery centers?",
+                "How do disaster recovery centers help after a disaster?",
+                "Where can I find a disaster recovery center?",
+                "What services are available at disaster recovery centers?",
+                "How can I get assistance from a disaster recovery center?"
+            ],
+            "responses": [
+                "Disaster recovery centers are physical locations where individuals affected by disasters can access information, resources, and assistance.",
+                "Disaster recovery centers help after a disaster by providing information on disaster assistance programs, offering support services, and connecting individuals with resources.",
+                "Find a disaster recovery center by checking local government websites, contacting emergency services, or visiting community centers.",
+                "Services available at disaster recovery centers may include disaster assistance programs, counseling services, temporary housing assistance, and referrals to relief organizations.",
+                "Get assistance from a disaster recovery center by visiting the center in person, providing necessary documentation, and speaking with recovery specialists."
+            ]
+        },
+        {
+            "tag": "disasterassistance",
+            "patterns": [
+                "What is disaster assistance?",
+                "How can I apply for disaster assistance?",
+                "What types of disaster assistance are available?",
+                "Where can I find information on disaster assistance programs?",
+                "What are the eligibility criteria for disaster assistance?"
+            ],
+            "responses": [
+                "Disaster assistance provides financial, housing, and other forms of support to individuals and communities affected by disasters.",
+                "Apply for disaster assistance by contacting local government agencies, visiting disaster recovery centers, or applying online through official websites.",
+                "Types of disaster assistance include financial aid, temporary housing, low-interest loans, and counseling services for disaster survivors.",
+                "Find information on disaster assistance programs through local government websites, emergency services, or disaster recovery centers.",
+                "Eligibility criteria for disaster assistance may include proof of disaster-related damages, income verification, and residency requirements."
+            ]
+        },
+        {
+            "tag": "recoveryresources",
+            "patterns": [
+                "What resources are available for disaster recovery?",
+                "How can I access recovery resources after a disaster?",
+                "Where can I find information on recovery resources?",
+                "What types of support are offered in disaster recovery?",
+                "How do I get assistance from recovery resources?"
+            ],
+            "responses": [
+                "Resources for disaster recovery include government assistance programs, relief organizations, community support services, and nonprofit agencies.",
+                "Access recovery resources after a disaster by contacting local government agencies, visiting disaster recovery centers, or seeking help from relief organizations.",
+                "Find information on recovery resources through local government websites, emergency services, or community organizations involved in disaster recovery.",
+                "Support offered in disaster recovery may include financial aid, temporary housing, counseling services, debris removal, and rebuilding assistance.",
+                "Get assistance from recovery resources by reaching out to local agencies, providing necessary documentation, and following instructions for accessing support services."
+            ]
+        },
+        {
+            "tag": "disasterrecovery",
+            "patterns": [
+                "What is disaster recovery?",
+                "How does disaster recovery work?",
+                "What are the goals of disaster recovery?",
+                "How can I start the disaster recovery process?",
+                "What are the key components of disaster recovery?"
+            ],
+            "responses": [
+                "Disaster recovery involves restoring services, rebuilding infrastructure, and supporting affected individuals and communities after a disaster.",
+                "Disaster recovery works by assessing damages, securing resources, and implementing plans to restore normalcy after a disaster.",
+                "Goals of disaster recovery include rebuilding communities, restoring services, supporting recovery efforts, and enhancing resilience to future disasters.",
+                "Start the disaster recovery process by assessing damages, creating a recovery plan, and seeking assistance from relief organizations.",
+                "Key components of disaster recovery include damage assessment, recovery planning, resource management, and communication with affected individuals and communities."
+            ]
+        },
+        {
+            "tag": "emergencycontact",
+            "patterns": [
+                "What should I do for emergency contact?",
+                "How to handle emergency contact?",
+                "What are the steps for emergency contact?",
+                "Can you help with emergency contact?",
+                "Give me instructions for emergency contact."
+            ],
+            "responses": [
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel."
+            ]
+        },
+        {
+            "tag": "firstaidsteps",
+            "patterns": [
+                "What should I do for first aid steps?",
+                "How to handle first aid steps?",
+                "What are the steps for first aid steps?",
+                "Can you help with first aid steps?",
+                "Give me instructions for first aid steps."
+            ],
+            "responses": [
+                "To apply first aid, assess the situation, ensure it's safe to approach, and follow the steps for providing care, such as treating wounds, burns, or stabilizing the injured person.",
+                "To apply first aid, assess the situation, ensure it's safe to approach, and follow the steps for providing care, such as treating wounds, burns, or stabilizing the injured person.",
+                "To apply first aid, assess the situation, ensure it's safe to approach, and follow the steps for providing care, such as treating wounds, burns, or stabilizing the injured person.",
+                "To apply first aid, assess the situation, ensure it's safe to approach, and follow the steps for providing care, such as treating wounds, burns, or stabilizing the injured person.",
+                "To apply first aid, assess the situation, ensure it's safe to approach, and follow the steps for providing care, such as treating wounds, burns, or stabilizing the injured person."
+            ]
+        },
+        {
+            "tag": "recoveryposition",
+            "patterns": [
+                "What should I do for recovery position?",
+                "How to handle recovery position?",
+                "What are the steps for recovery position?",
+                "Can you help with recovery position?",
+                "Give me instructions for recovery position."
+            ],
+            "responses": [
+                "To handle recovery_position, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "recovery_position requires urgent attention, please follow the emergency guidelines for it.",
+                "For recovery_position, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "recovery_position can be handled by following the safety guidelines outlined in the manual.",
+                "In case of recovery_position, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "cpr",
+            "patterns": [
+                "What should I do for CPR?",
+                "How to handle CPR?",
+                "What are the steps for CPR?",
+                "Can you help with CPR?",
+                "Give me instructions for CPR."
+            ],
+            "responses": [
+                "CPR (Cardiopulmonary Resuscitation) is a life-saving technique. To perform CPR, check if the person is breathing, call for help, and follow the proper technique of chest compressions and rescue breaths.",
+                "CPR (Cardiopulmonary Resuscitation) is a life-saving technique. To perform CPR, check if the person is breathing, call for help, and follow the proper technique of chest compressions and rescue breaths.",
+                "CPR (Cardiopulmonary Resuscitation) is a life-saving technique. To perform CPR, check if the person is breathing, call for help, and follow the proper technique of chest compressions and rescue breaths.",
+                "CPR (Cardiopulmonary Resuscitation) is a life-saving technique. To perform CPR, check if the person is breathing, call for help, and follow the proper technique of chest compressions and rescue breaths.",
+                "CPR (Cardiopulmonary Resuscitation) is a life-saving technique. To perform CPR, check if the person is breathing, call for help, and follow the proper technique of chest compressions and rescue breaths."
+            ]
+        },
+        {
+            "tag": "choking",
+            "patterns": [
+                "What should I do for choking?",
+                "How to handle choking?",
+                "What are the steps for choking?",
+                "Can you help with choking?",
+                "Give me instructions for choking."
+            ],
+            "responses": [
+                "For choking, encourage the person to cough if they can. If they can't breathe, perform the Heimlich maneuver by giving upward abdominal thrusts until the object is expelled.",
+                "For choking, encourage the person to cough if they can. If they can't breathe, perform the Heimlich maneuver by giving upward abdominal thrusts until the object is expelled.",
+                "For choking, encourage the person to cough if they can. If they can't breathe, perform the Heimlich maneuver by giving upward abdominal thrusts until the object is expelled.",
+                "For choking, encourage the person to cough if they can. If they can't breathe, perform the Heimlich maneuver by giving upward abdominal thrusts until the object is expelled.",
+                "For choking, encourage the person to cough if they can. If they can't breathe, perform the Heimlich maneuver by giving upward abdominal thrusts until the object is expelled."
+            ]
+        },
+        {
+            "tag": "headinjury",
+            "patterns": [
+                "What should I do for head injury?",
+                "How to handle head injury?",
+                "What are the steps for head injury?",
+                "Can you help with head injury?",
+                "Give me instructions for head injury."
+            ],
+            "responses": [
+                "To handle head_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "head_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For head_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "head_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of head_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "unconsciouscasualty",
+            "patterns": [
+                "What should I do for unconscious casualty?",
+                "How to handle unconscious casualty?",
+                "What are the steps for unconscious casualty?",
+                "Can you help with unconscious casualty?",
+                "Give me instructions for unconscious casualty."
+            ],
+            "responses": [
+                "To handle unconscious_casualty, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "unconscious_casualty requires urgent attention, please follow the emergency guidelines for it.",
+                "For unconscious_casualty, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "unconscious_casualty can be handled by following the safety guidelines outlined in the manual.",
+                "In case of unconscious_casualty, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "bleeding",
+            "patterns": [
+                "What should I do for bleeding?",
+                "How to handle bleeding?",
+                "What are the steps for bleeding?",
+                "Can you help with bleeding?",
+                "Give me instructions for bleeding."
+            ],
+            "responses": [
+                "To handle bleeding, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "bleeding requires urgent attention, please follow the emergency guidelines for it.",
+                "For bleeding, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "bleeding can be handled by following the safety guidelines outlined in the manual.",
+                "In case of bleeding, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "burns",
+            "patterns": [
+                "What should I do for burns?",
+                "How to handle burns?",
+                "What are the steps for burns?",
+                "Can you help with burns?",
+                "Give me instructions for burns."
+            ],
+            "responses": [
+                "To handle burns, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "burns requires urgent attention, please follow the emergency guidelines for it.",
+                "For burns, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "burns can be handled by following the safety guidelines outlined in the manual.",
+                "In case of burns, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "fractures",
+            "patterns": [
+                "What should I do for fractures?",
+                "How to handle fractures?",
+                "What are the steps for fractures?",
+                "Can you help with fractures?",
+                "Give me instructions for fractures."
+            ],
+            "responses": [
+                "To handle fractures, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "fractures requires urgent attention, please follow the emergency guidelines for it.",
+                "For fractures, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "fractures can be handled by following the safety guidelines outlined in the manual.",
+                "In case of fractures, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "electricshock",
+            "patterns": [
+                "What should I do for electric shock?",
+                "How to handle electric shock?",
+                "What are the steps for electric shock?",
+                "Can you help with electric shock?",
+                "Give me instructions for electric shock."
+            ],
+            "responses": [
+                "To handle electric_shock, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "electric_shock requires urgent attention, please follow the emergency guidelines for it.",
+                "For electric_shock, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "electric_shock can be handled by following the safety guidelines outlined in the manual.",
+                "In case of electric_shock, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "drowning",
+            "patterns": [
+                "What should I do for drowning?",
+                "How to handle drowning?",
+                "What are the steps for drowning?",
+                "Can you help with drowning?",
+                "Give me instructions for drowning."
+            ],
+            "responses": [
+                "To handle drowning, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "drowning requires urgent attention, please follow the emergency guidelines for it.",
+                "For drowning, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "drowning can be handled by following the safety guidelines outlined in the manual.",
+                "In case of drowning, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "trafficaccident",
+            "patterns": [
+                "What should I do for traffic accident?",
+                "How to handle traffic accident?",
+                "What are the steps for traffic accident?",
+                "Can you help with traffic accident?",
+                "Give me instructions for traffic accident."
+            ],
+            "responses": [
+                "To handle traffic_accident, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "traffic_accident requires urgent attention, please follow the emergency guidelines for it.",
+                "For traffic_accident, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "traffic_accident can be handled by following the safety guidelines outlined in the manual.",
+                "In case of traffic_accident, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "workplaceinjury",
+            "patterns": [
+                "What should I do for workplace injury?",
+                "How to handle workplace injury?",
+                "What are the steps for workplace injury?",
+                "Can you help with workplace injury?",
+                "Give me instructions for workplace injury."
+            ],
+            "responses": [
+                "To handle workplace_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "workplace_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For workplace_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "workplace_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of workplace_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "schoolinjury",
+            "patterns": [
+                "What should I do for school injury?",
+                "How to handle school injury?",
+                "What are the steps for school injury?",
+                "Can you help with school injury?",
+                "Give me instructions for school injury."
+            ],
+            "responses": [
+                "To handle school_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "school_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For school_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "school_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of school_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "infantresuscitation",
+            "patterns": [
+                "What should I do for infant resuscitation?",
+                "How to handle infant resuscitation?",
+                "What are the steps for infant resuscitation?",
+                "Can you help with infant resuscitation?",
+                "Give me instructions for infant resuscitation."
+            ],
+            "responses": [
+                "To handle infant_resuscitation, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "infant_resuscitation requires urgent attention, please follow the emergency guidelines for it.",
+                "For infant_resuscitation, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "infant_resuscitation can be handled by following the safety guidelines outlined in the manual.",
+                "In case of infant_resuscitation, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "chokingchild",
+            "patterns": [
+                "What should I do for choking child?",
+                "How to handle choking child?",
+                "What are the steps for choking child?",
+                "Can you help with choking child?",
+                "Give me instructions for choking child."
+            ],
+            "responses": [
+                "To handle choking_child, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "choking_child requires urgent attention, please follow the emergency guidelines for it.",
+                "For choking_child, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "choking_child can be handled by following the safety guidelines outlined in the manual.",
+                "In case of choking_child, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "bleedingcontrol",
+            "patterns": [
+                "What should I do for bleeding control?",
+                "How to handle bleeding control?",
+                "What are the steps for bleeding control?",
+                "Can you help with bleeding control?",
+                "Give me instructions for bleeding control."
+            ],
+            "responses": [
+                "To handle bleeding_control, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "bleeding_control requires urgent attention, please follow the emergency guidelines for it.",
+                "For bleeding_control, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "bleeding_control can be handled by following the safety guidelines outlined in the manual.",
+                "In case of bleeding_control, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "spinalinjury",
+            "patterns": [
+                "What should I do for spinal injury?",
+                "How to handle spinal injury?",
+                "What are the steps for spinal injury?",
+                "Can you help with spinal injury?",
+                "Give me instructions for spinal injury."
+            ],
+            "responses": [
+                "To handle spinal_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "spinal_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For spinal_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "spinal_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of spinal_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "movingacasualty",
+            "patterns": [
+                "What should I do for moving a casualty?",
+                "How to handle moving a casualty?",
+                "What are the steps for moving a casualty?",
+                "Can you help with moving a casualty?",
+                "Give me instructions for moving a casualty."
+            ],
+            "responses": [
+                "To handle moving_a_casualty, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "moving_a_casualty requires urgent attention, please follow the emergency guidelines for it.",
+                "For moving_a_casualty, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "moving_a_casualty can be handled by following the safety guidelines outlined in the manual.",
+                "In case of moving_a_casualty, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "rescuebreaths",
+            "patterns": [
+                "What should I do for rescue breaths?",
+                "How to handle rescue breaths?",
+                "What are the steps for rescue breaths?",
+                "Can you help with rescue breaths?",
+                "Give me instructions for rescue breaths."
+            ],
+            "responses": [
+                "To handle rescue_breaths, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "rescue_breaths requires urgent attention, please follow the emergency guidelines for it.",
+                "For rescue_breaths, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "rescue_breaths can be handled by following the safety guidelines outlined in the manual.",
+                "In case of rescue_breaths, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "burntreatment",
+            "patterns": [
+                "What should I do for burn treatment?",
+                "How to handle burn treatment?",
+                "What are the steps for burn treatment?",
+                "Can you help with burn treatment?",
+                "Give me instructions for burn treatment."
+            ],
+            "responses": [
+                "To handle burn_treatment, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "burn_treatment requires urgent attention, please follow the emergency guidelines for it.",
+                "For burn_treatment, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "burn_treatment can be handled by following the safety guidelines outlined in the manual.",
+                "In case of burn_treatment, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "transportinginjured",
+            "patterns": [
+                "What should I do for transporting injured?",
+                "How to handle transporting injured?",
+                "What are the steps for transporting injured?",
+                "Can you help with transporting injured?",
+                "Give me instructions for transporting injured."
+            ],
+            "responses": [
+                "To handle transporting_injured, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "transporting_injured requires urgent attention, please follow the emergency guidelines for it.",
+                "For transporting_injured, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "transporting_injured can be handled by following the safety guidelines outlined in the manual.",
+                "In case of transporting_injured, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "heartattack",
+            "patterns": [
+                "What should I do for heart attack?",
+                "How to handle heart attack?",
+                "What are the steps for heart attack?",
+                "Can you help with heart attack?",
+                "Give me instructions for heart attack."
+            ],
+            "responses": [
+                "To handle heart_attack, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "heart_attack requires urgent attention, please follow the emergency guidelines for it.",
+                "For heart_attack, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "heart_attack can be handled by following the safety guidelines outlined in the manual.",
+                "In case of heart_attack, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "brokenlimb",
+            "patterns": [
+                "What should I do for broken limb?",
+                "How to handle broken limb?",
+                "What are the steps for broken limb?",
+                "Can you help with broken limb?",
+                "Give me instructions for broken limb."
+            ],
+            "responses": [
+                "To handle broken_limb, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "broken_limb requires urgent attention, please follow the emergency guidelines for it.",
+                "For broken_limb, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "broken_limb can be handled by following the safety guidelines outlined in the manual.",
+                "In case of broken_limb, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "neckinjury",
+            "patterns": [
+                "What should I do for neck injury?",
+                "How to handle neck injury?",
+                "What are the steps for neck injury?",
+                "Can you help with neck injury?",
+                "Give me instructions for neck injury."
+            ],
+            "responses": [
+                "To handle neck_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "neck_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For neck_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "neck_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of neck_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "arminjury",
+            "patterns": [
+                "What should I do for arm injury?",
+                "How to handle arm injury?",
+                "What are the steps for arm injury?",
+                "Can you help with arm injury?",
+                "Give me instructions for arm injury."
+            ],
+            "responses": [
+                "To handle arm_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "arm_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For arm_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "arm_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of arm_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "leginjury",
+            "patterns": [
+                "What should I do for leg injury?",
+                "How to handle leg injury?",
+                "What are the steps for leg injury?",
+                "Can you help with leg injury?",
+                "Give me instructions for leg injury."
+            ],
+            "responses": [
+                "To handle leg_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "leg_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For leg_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "leg_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of leg_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "dizzy",
+            "patterns": [
+                "What should I do for dizzy?",
+                "How to handle dizzy?",
+                "What are the steps for dizzy?",
+                "Can you help with dizzy?",
+                "Give me instructions for dizzy."
+            ],
+            "responses": [
+                "To handle dizzy, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "dizzy requires urgent attention, please follow the emergency guidelines for it.",
+                "For dizzy, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "dizzy can be handled by following the safety guidelines outlined in the manual.",
+                "In case of dizzy, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "nausea",
+            "patterns": [
+                "What should I do for nausea?",
+                "How to handle nausea?",
+                "What are the steps for nausea?",
+                "Can you help with nausea?",
+                "Give me instructions for nausea."
+            ],
+            "responses": [
+                "To handle nausea, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "nausea requires urgent attention, please follow the emergency guidelines for it.",
+                "For nausea, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "nausea can be handled by following the safety guidelines outlined in the manual.",
+                "In case of nausea, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "feelingfaint",
+            "patterns": [
+                "What should I do for feeling faint?",
+                "How to handle feeling faint?",
+                "What are the steps for feeling faint?",
+                "Can you help with feeling faint?",
+                "Give me instructions for feeling faint."
+            ],
+            "responses": [
+                "To handle feeling_faint, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "feeling_faint requires urgent attention, please follow the emergency guidelines for it.",
+                "For feeling_faint, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "feeling_faint can be handled by following the safety guidelines outlined in the manual.",
+                "In case of feeling_faint, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "signsofinjury",
+            "patterns": [
+                "What should I do for signs of injury?",
+                "How to handle signs of injury?",
+                "What are the steps for signs of injury?",
+                "Can you help with signs of injury?",
+                "Give me instructions for signs of injury."
+            ],
+            "responses": [
+                "To handle signs_of_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "signs_of_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For signs_of_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "signs_of_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of signs_of_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "signsofshock",
+            "patterns": [
+                "What should I do for signs of shock?",
+                "How to handle signs of shock?",
+                "What are the steps for signs of shock?",
+                "Can you help with signs of shock?",
+                "Give me instructions for signs of shock."
+            ],
+            "responses": [
+                "To handle signs_of_shock, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "signs_of_shock requires urgent attention, please follow the emergency guidelines for it.",
+                "For signs_of_shock, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "signs_of_shock can be handled by following the safety guidelines outlined in the manual.",
+                "In case of signs_of_shock, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "heatstroke",
+            "patterns": [
+                "What should I do for heat stroke?",
+                "How to handle heat stroke?",
+                "What are the steps for heat stroke?",
+                "Can you help with heat stroke?",
+                "Give me instructions for heat stroke."
+            ],
+            "responses": [
+                "To handle heat_stroke, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "heat_stroke requires urgent attention, please follow the emergency guidelines for it.",
+                "For heat_stroke, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "heat_stroke can be handled by following the safety guidelines outlined in the manual.",
+                "In case of heat_stroke, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "frostbite",
+            "patterns": [
+                "What should I do for frostbite?",
+                "How to handle frostbite?",
+                "What are the steps for frostbite?",
+                "Can you help with frostbite?",
+                "Give me instructions for frostbite."
+            ],
+            "responses": [
+                "To handle frostbite, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "frostbite requires urgent attention, please follow the emergency guidelines for it.",
+                "For frostbite, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "frostbite can be handled by following the safety guidelines outlined in the manual.",
+                "In case of frostbite, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "minorcuts",
+            "patterns": [
+                "What should I do for minor cuts?",
+                "How to handle minor cuts?",
+                "What are the steps for minor cuts?",
+                "Can you help with minor cuts?",
+                "Give me instructions for minor cuts."
+            ],
+            "responses": [
+                "To handle minor_cuts, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "minor_cuts requires urgent attention, please follow the emergency guidelines for it.",
+                "For minor_cuts, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "minor_cuts can be handled by following the safety guidelines outlined in the manual.",
+                "In case of minor_cuts, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "snakebite",
+            "patterns": [
+                "What should I do for snake bite?",
+                "How to handle snake bite?",
+                "What are the steps for snake bite?",
+                "Can you help with snake bite?",
+                "Give me instructions for snake bite."
+            ],
+            "responses": [
+                "To handle snake_bite, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "snake_bite requires urgent attention, please follow the emergency guidelines for it.",
+                "For snake_bite, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "snake_bite can be handled by following the safety guidelines outlined in the manual.",
+                "In case of snake_bite, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "animalbite",
+            "patterns": [
+                "What should I do for animal bite?",
+                "How to handle animal bite?",
+                "What are the steps for animal bite?",
+                "Can you help with animal bite?",
+                "Give me instructions for animal bite."
+            ],
+            "responses": [
+                "To handle animal_bite, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "animal_bite requires urgent attention, please follow the emergency guidelines for it.",
+                "For animal_bite, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "animal_bite can be handled by following the safety guidelines outlined in the manual.",
+                "In case of animal_bite, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "poisoning",
+            "patterns": [
+                "What should I do for poisoning?",
+                "How to handle poisoning?",
+                "What are the steps for poisoning?",
+                "Can you help with poisoning?",
+                "Give me instructions for poisoning."
+            ],
+            "responses": [
+                "To handle poisoning, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "poisoning requires urgent attention, please follow the emergency guidelines for it.",
+                "For poisoning, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "poisoning can be handled by following the safety guidelines outlined in the manual.",
+                "In case of poisoning, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "toxicsubstance",
+            "patterns": [
+                "What should I do for toxic substance?",
+                "How to handle toxic substance?",
+                "What are the steps for toxic substance?",
+                "Can you help with toxic substance?",
+                "Give me instructions for toxic substance."
+            ],
+            "responses": [
+                "To handle toxic_substance, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "toxic_substance requires urgent attention, please follow the emergency guidelines for it.",
+                "For toxic_substance, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "toxic_substance can be handled by following the safety guidelines outlined in the manual.",
+                "In case of toxic_substance, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "severebleeding",
+            "patterns": [
+                "What should I do for severe bleeding?",
+                "How to handle severe bleeding?",
+                "What are the steps for severe bleeding?",
+                "Can you help with severe bleeding?",
+                "Give me instructions for severe bleeding."
+            ],
+            "responses": [
+                "To handle severe_bleeding, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "severe_bleeding requires urgent attention, please follow the emergency guidelines for it.",
+                "For severe_bleeding, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "severe_bleeding can be handled by following the safety guidelines outlined in the manual.",
+                "In case of severe_bleeding, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "eyeinjury",
+            "patterns": [
+                "What should I do for eye injury?",
+                "How to handle eye injury?",
+                "What are the steps for eye injury?",
+                "Can you help with eye injury?",
+                "Give me instructions for eye injury."
+            ],
+            "responses": [
+                "To handle eye_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "eye_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For eye_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "eye_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of eye_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "chemicalburns",
+            "patterns": [
+                "What should I do for chemical burns?",
+                "How to handle chemical burns?",
+                "What are the steps for chemical burns?",
+                "Can you help with chemical burns?",
+                "Give me instructions for chemical burns."
+            ],
+            "responses": [
+                "To handle chemical_burns, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "chemical_burns requires urgent attention, please follow the emergency guidelines for it.",
+                "For chemical_burns, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "chemical_burns can be handled by following the safety guidelines outlined in the manual.",
+                "In case of chemical_burns, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "emergencyprocedure",
+            "patterns": [
+                "What should I do for emergency procedure?",
+                "How to handle emergency procedure?",
+                "What are the steps for emergency procedure?",
+                "Can you help with emergency procedure?",
+                "Give me instructions for emergency procedure."
+            ],
+            "responses": [
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel.",
+                "In case of an emergency, please call your local emergency contact (e.g., 911). Stay calm, provide the necessary details, and follow the instructions given by the emergency personnel."
+            ]
+        },
+        {
+            "tag": "babyrescuebreaths",
+            "patterns": [
+                "What should I do for baby rescue breaths?",
+                "How to handle baby rescue breaths?",
+                "What are the steps for baby rescue breaths?",
+                "Can you help with baby rescue breaths?",
+                "Give me instructions for baby rescue breaths."
+            ],
+            "responses": [
+                "To handle baby_rescue_breaths, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "baby_rescue_breaths requires urgent attention, please follow the emergency guidelines for it.",
+                "For baby_rescue_breaths, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "baby_rescue_breaths can be handled by following the safety guidelines outlined in the manual.",
+                "In case of baby_rescue_breaths, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "infantcpr",
+            "patterns": [
+                "What should I do for infant CPR?",
+                "How to handle infant CPR?",
+                "What are the steps for infant CPR?",
+                "Can you help with infant CPR?",
+                "Give me instructions for infant CPR."
+            ],
+            "responses": [
+                "To handle infant_CPR, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "infant_CPR requires urgent attention, please follow the emergency guidelines for it.",
+                "For infant_CPR, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "infant_CPR can be handled by following the safety guidelines outlined in the manual.",
+                "In case of infant_CPR, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "reassurecasualty",
+            "patterns": [
+                "What should I do for reassure casualty?",
+                "How to handle reassure casualty?",
+                "What are the steps for reassure casualty?",
+                "Can you help with reassure casualty?",
+                "Give me instructions for reassure casualty."
+            ],
+            "responses": [
+                "To handle reassure_casualty, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "reassure_casualty requires urgent attention, please follow the emergency guidelines for it.",
+                "For reassure_casualty, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "reassure_casualty can be handled by following the safety guidelines outlined in the manual.",
+                "In case of reassure_casualty, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "chokingadult",
+            "patterns": [
+                "What should I do for choking adult?",
+                "How to handle choking adult?",
+                "What are the steps for choking adult?",
+                "Can you help with choking adult?",
+                "Give me instructions for choking adult."
+            ],
+            "responses": [
+                "To handle choking_adult, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "choking_adult requires urgent attention, please follow the emergency guidelines for it.",
+                "For choking_adult, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "choking_adult can be handled by following the safety guidelines outlined in the manual.",
+                "In case of choking_adult, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "fallinginjury",
+            "patterns": [
+                "What should I do for falling injury?",
+                "How to handle falling injury?",
+                "What are the steps for falling injury?",
+                "Can you help with falling injury?",
+                "Give me instructions for falling injury."
+            ],
+            "responses": [
+                "To handle falling_injury, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "falling_injury requires urgent attention, please follow the emergency guidelines for it.",
+                "For falling_injury, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "falling_injury can be handled by following the safety guidelines outlined in the manual.",
+                "In case of falling_injury, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "crushedlimb",
+            "patterns": [
+                "What should I do for crushed limb?",
+                "How to handle crushed limb?",
+                "What are the steps for crushed limb?",
+                "Can you help with crushed limb?",
+                "Give me instructions for crushed limb."
+            ],
+            "responses": [
+                "To handle crushed limb, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "crushed limb requires urgent attention, please follow the emergency guidelines for it.",
+                "For crushed limb, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "crushed_limb can be handled by following the safety guidelines outlined in the manual.",
+                "In case of crushed limb, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "unblockingairway",
+            "patterns": [
+                "What should I do for unblocking airway?",
+                "How to handle unblocking airway?",
+                "What are the steps for unblocking airway?",
+                "Can you help with unblocking airway?",
+                "Give me instructions for unblocking airway."
+            ],
+            "responses": [
+                "To handle unblocking_airway, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "unblocking_airway requires urgent attention, please follow the emergency guidelines for it.",
+                "For unblocking_airway, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "unblocking_airway can be handled by following the safety guidelines outlined in the manual.",
+                "In case of unblocking_airway, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "pulsecheck",
+            "patterns": [
+                "What should I do for pulse check?",
+                "How to handle pulse check?",
+                "What are the steps for pulse check?",
+                "Can you help with pulse check?",
+                "Give me instructions for pulse check."
+            ],
+            "responses": [
+                "To handle pulse_check, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "pulse_check requires urgent attention, please follow the emergency guidelines for it.",
+                "For pulse_check, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "pulse_check can be handled by following the safety guidelines outlined in the manual.",
+                "In case of pulse_check, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "breathingcheck",
+            "patterns": [
+                "What should I do for breathing check?",
+                "How to handle breathing check?",
+                "What are the steps for breathing check?",
+                "Can you help with breathing check?",
+                "Give me instructions for breathing check."
+            ],
+            "responses": [
+                "To handle breathing_check, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "breathing_check requires urgent attention, please follow the emergency guidelines for it.",
+                "For breathing_check, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "breathing_check can be handled by following the safety guidelines outlined in the manual.",
+                "In case of breathing_check, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "alertbystander",
+            "patterns": [
+                "What should I do for alert bystander?",
+                "How to handle alert bystander?",
+                "What are the steps for alert bystander?",
+                "Can you help with alert bystander?",
+                "Give me instructions for alert bystander."
+            ],
+            "responses": [
+                "To handle alert_bystander, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "alert_bystander requires urgent attention, please follow the emergency guidelines for it.",
+                "For alert_bystander, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "alert_bystander can be handled by following the safety guidelines outlined in the manual.",
+                "In case of alert_bystander, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "urgenthelp",
+            "patterns": [
+                "What should I do for urgent help?",
+                "How to handle urgent help?",
+                "What are the steps for urgent help?",
+                "Can you help with urgent help?",
+                "Give me instructions for urgent help."
+            ],
+            "responses": [
+                "To handle urgent_help, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "urgent_help requires urgent attention, please follow the emergency guidelines for it.",
+                "For urgent_help, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "urgent_help can be handled by following the safety guidelines outlined in the manual.",
+                "In case of urgent_help, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "firstaidstation",
+            "patterns": [
+                "What should I do for first aid station?",
+                "How to handle first aid station?",
+                "What are the steps for first aid station?",
+                "Can you help with first aid station?",
+                "Give me instructions for first aid station."
+            ],
+            "responses": [
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help."
+            ]
+        },
+        {
+            "tag": "whentocallhelp",
+            "patterns": [
+                "What should I do for when to call help?",
+                "How to handle when to call help?",
+                "What are the steps for when to call help?",
+                "Can you help with when to call help?",
+                "Give me instructions for when to call help."
+            ],
+            "responses": [
+                "To handle when_to_call_help, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "when_to_call_help requires urgent attention, please follow the emergency guidelines for it.",
+                "For when_to_call_help, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "when_to_call_help can be handled by following the safety guidelines outlined in the manual.",
+                "In case of when_to_call_help, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "howtoseekhelp",
+            "patterns": [
+                "What should I do for how to seek help?",
+                "How to handle how to seek help?",
+                "What are the steps for how to seek help?",
+                "Can you help with how to seek help?",
+                "Give me instructions for how to seek help."
+            ],
+            "responses": [
+                "To handle how_to_seek_help, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "how_to_seek_help requires urgent attention, please follow the emergency guidelines for it.",
+                "For how_to_seek_help, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "how_to_seek_help can be handled by following the safety guidelines outlined in the manual.",
+                "In case of how_to_seek_help, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "firstaidinstructions",
+            "patterns": [
+                "What should I do for first aid instructions?",
+                "How to handle first aid instructions?",
+                "What are the steps for first aid instructions?",
+                "Can you help with first aid instructions?",
+                "Give me instructions for first aid instructions."
+            ],
+            "responses": [
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help."
+            ]
+        },
+        {
+            "tag": "stepbystepfirstaid",
+            "patterns": [
+                "What should I do for step by step first aid?",
+                "How to handle step by step first aid?",
+                "What are the steps for step by step first aid?",
+                "Can you help with step by step first aid?",
+                "Give me instructions for step by step first aid."
+            ],
+            "responses": [
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help.",
+                "For any first aid situation, ensure the area is safe, then follow these steps based on the injury. If needed, call for help."
+            ]
+        },
+        {
+            "tag": "how to control bleeding",
+            "patterns": [
+                "What should I do for how to control bleeding?",
+                "How to handle how to control bleeding?",
+                "What are the steps for how to control bleeding?",
+                "Can you help with how to control bleeding?",
+                "Give me instructions for how to control bleeding."
+            ],
+            "responses": [
+                "To handle how_to_control_bleeding, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "how_to_control_bleeding requires urgent attention, please follow the emergency guidelines for it.",
+                "For how_to_control_bleeding, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "how_to_control_bleeding can be handled by following the safety guidelines outlined in the manual.",
+                "In case of how_to_control_bleeding, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "assessconsciousness",
+            "patterns": [
+                "What should I do for assess consciousness?",
+                "How to handle assess consciousness?",
+                "What are the steps for assess consciousness?",
+                "Can you help with assess consciousness?",
+                "Give me instructions for assess consciousness."
+            ],
+            "responses": [
+                "To handle assess_consciousness, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "assess_consciousness requires urgent attention, please follow the emergency guidelines for it.",
+                "For assess_consciousness, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "assess_consciousness can be handled by following the safety guidelines outlined in the manual.",
+                "In case of assess_consciousness, stay calm and provide first aid according to the described procedures."
+            ]
+        },
+        {
+            "tag": "puttingcasualtyinrecoveryposition",
+            "patterns": [
+                "What should I do for putting casualty in recovery position?",
+                "How to handle putting casualty in recovery position?",
+                "What are the steps for putting casualty in recovery position?",
+                "Can you help with putting casualty in recovery position?",
+                "Give me instructions for putting casualty in recovery position."
+            ],
+            "responses": [
+                "To handle putting_casualty_in_recovery_position, first ensure the area is safe, then follow the appropriate steps described in the first aid manual.",
+                "putting_casualty_in_recovery_position requires urgent attention, please follow the emergency guidelines for it.",
+                "For putting_casualty_in_recovery_position, make sure you seek help if needed and follow the appropriate first aid steps.",
+                "putting_casualty_in_recovery_position can be handled by following the safety guidelines outlined in the manual.",
+                "In case of putting_casualty_in_recovery_position, stay calm and provide first aid according to the described procedures."
+            ]
+        }
+    ]
+}
